@@ -8,7 +8,8 @@ Dead cells are denoted as '.' while alive cells are 'O'
 Utilized Texas Tech's High Performance Computing Center to run using a Professor provided grading script. 
 
 Runtime summary for different size matrices and processes:
-quanah:/project3$ cat full_timing. log
+
+quanah:/project3$ cat full_timing. log <br/>
 Run Time Results:
 100x100 - 1 process: 			    4.076358571 seconds
 100x100 - 2 processes: 			  1.737369919 seconds
