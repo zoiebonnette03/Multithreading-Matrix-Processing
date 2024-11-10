@@ -2,7 +2,8 @@ Multithreading matrix processing in Python for Concepts of Programming class.
 
 Take in a large matrix and alters data based loosely on Conway's Game of Life algorithm:
 - A live cell dies if it has 0, 1, 4, 6, or 8 alive neighbors
-- A dead cell becomes alive if it has 2, 4, 6, or 8 alive neighbors <br/>
+- A dead cell becomes alive if it has 2, 4, 6, or 8 alive neighbors
+
 Dead cells are denoted as '.' while alive cells are 'O'
 
 Utilized Texas Tech's High Performance Computing Center to run using a Professor provided grading script. 
