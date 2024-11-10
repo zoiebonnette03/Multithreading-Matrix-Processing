@@ -10,21 +10,21 @@ Utilized Texas Tech's High Performance Computing Center to run using a Professor
 Runtime summary for different size matrices and processes:
 
 quanah:/project3$ cat full_timing. log <br/>
-Run Time Results:
-100x100 - 1 process: 			    4.076358571 seconds
-100x100 - 2 processes: 			  1.737369919 seconds
-100x100 - 4 processes:			  1.282572122 seconds
-100x100 - 8 processes:			  1.648781257 seconds
-100x100 - 16 processes:			  2.696761900 seconds
-100x100 - 32 processes:			  4.769030670 seconds
-1000x1000 - 1 process: 			  313.062224337 seconds
-1000×1000 - 2 processes:		  201.814996608 seconds
-1000x1000 - 4 processes:		  155.246603184 seconds
-1000×1000 - 8 processes:		  157.491126220 seconds
-1000x1000 - 16 processes: 		220.765658158 seconds
-1000x1000 - 32 processes: 		326.056936178 seconds
-10000×10000 - 9 processes:		18676.773668914 seconds
-10000x10000 - 18 processes:		24236.267076728 seconds
-10000x10000 - 36 processes:		34693.621358001 seconds
+Run Time Results: <br/>
+100x100 - 1 process: 			    4.076358571 seconds <br/>
+100x100 - 2 processes: 			  1.737369919 seconds <br/>
+100x100 - 4 processes:			  1.282572122 seconds <br/>
+100x100 - 8 processes:			  1.648781257 seconds <br/>
+100x100 - 16 processes:			  2.696761900 seconds <br/>
+100x100 - 32 processes:			  4.769030670 seconds <br/>
+1000x1000 - 1 process: 			  313.062224337 seconds <br/>
+1000×1000 - 2 processes:		  201.814996608 seconds <br/>
+1000x1000 - 4 processes:		  155.246603184 seconds <br/>
+1000×1000 - 8 processes:		  157.491126220 seconds <br/>
+1000x1000 - 16 processes: 		220.765658158 seconds <br/>
+1000x1000 - 32 processes: 		326.056936178 seconds <br/>
+10000×10000 - 9 processes:		18676.773668914 seconds <br/>
+10000x10000 - 18 processes:		24236.267076728 seconds <br/>
+10000x10000 - 36 processes:		34693.621358001 seconds <br/>
 
 Note: Runtime is fastest on 4-8 processes since I send each process a full matrix. The fix would be sending each matrix only the portion of each matrix it needs. 
