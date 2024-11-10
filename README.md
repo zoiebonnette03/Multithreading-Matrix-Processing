@@ -10,7 +10,7 @@ Utilized Texas Tech's High Performance Computing Center to run using a Professor
 Runtime summary for different size matrices and processes:
 quanah:/project3$ cat full_timing. log
 Run Time Results:
-\n100x100 - 1 process: 			    4.076358571 seconds
+100x100 - 1 process: 			    4.076358571 seconds
 100x100 - 2 processes: 			  1.737369919 seconds
 100x100 - 4 processes:			  1.282572122 seconds
 100x100 - 8 processes:			  1.648781257 seconds
