@@ -1,15 +1,14 @@
-Multithreading matrix processing in Python for Concepts of Programming class. 
+# Multithreading Matrix Processing in Python 
 
 Take in a large matrix and alters data based loosely on Conway's Game of Life algorithm:
 - A live cell dies if it has 0, 1, 4, 6, or 8 alive neighbors
 - A dead cell becomes alive if it has 2, 4, 6, or 8 alive neighbors
 
-Dead cells are denoted as '.' while alive cells are 'O'
+**Dead cells are denoted as '.' while alive cells are 'O'**
 
 Utilized Texas Tech's High Performance Computing Center to run using a Professor provided grading script. 
 
-Runtime summary for different size matrices and processes:
-
+## Runtime summary for different size matrices and processes: <br/>
 quanah:/project3$ cat full_timing. log <br/>
 Run Time Results: <br/>
 100x100 - 1 process: 			    4.076358571 seconds <br/>
